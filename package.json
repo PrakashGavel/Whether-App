@@ -1,5 +1,5 @@
 {
-  "name": "6_Todo_Whether_App_reactJS_2022",
+  "name": "Whether_App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

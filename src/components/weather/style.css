@@ -144,7 +144,7 @@ body {
 
 .searchTerm {
   width: 50%;
-  border: 6px solid #00b4cc;
+  /* border: 3px solid #00b4cc; */
   border: none;
   padding: 16px;
   height: 20px;
@@ -179,7 +179,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: -150px;
+  margin-top: -15px;
   margin-bottom: 50px;
 }
 

@@ -4,13 +4,13 @@ import Weathercard from "./weathercard";
 import "./style.css";
 
 const Temp = () => {
-  const [searchValue, setSearchValue] = useState("pune");
+  const [searchValue, setSearchValue] = useState("vellore");
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
     try {
       let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=efb2a6db49064f21d7a02cb7b4a45fc9`;
-      // let url = `https://api.openweathermap.org/data/2.5/weather?q=pune&units=metric&appid={WriteYourAPIKey}`;
+      // let url = `https://api.openweathermap.org/data/2.5/weather?q=vellore&units=metric&appid={WriteYourAPIKey}`;
 
       let res = await fetch(url);
       let data = await res.json();
